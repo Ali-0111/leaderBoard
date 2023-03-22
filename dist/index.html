@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LeaderBoard</title>
 
 <script defer src="main.js"></script></head>
 <body>
-    <h2>Hello, world!</h2>
+    <header class="main-head">
+        <h1>LeaderBoard</h1>
+    </header>
+    <section class="main">
+        <div class="w-50 scores">
+            <div class="scores-head flex">
+                <h2>Recent Scores</h2>
+                <button class="refresh-btn">Refresh</button>
+            </div>
+            <ul class=" information">
+                <li>Ali:100</li>
+                <li>Ali:100</li>
+                <li>Ali:100</li>
+                <li>Ali:100</li>
+            </ul>
+        </div>
+        <div class="w-50 inputs flex">
+            <h2>Add your score</h2>
+            <form class="input-form flex">
+                <input class="name" type="text" required placeholder="Your Name">
+                <input class="score" type="text" required placeholder="Your score">
+                <button class="submit-btn"> Submit </button>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
