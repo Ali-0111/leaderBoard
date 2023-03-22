@@ -96,4 +96,5 @@ ul {
 
 .submit-btn {
   align-self: flex-end;
+  outline: none;
 }

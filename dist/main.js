@@ -116,7 +116,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\nconsole.log('I am working..');\n\n//# sourceURL=webpack://html_css_js_configuration/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_renderScores_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/renderScores.js */ \"./src/modules/renderScores.js\");\n\n\n(0,_modules_renderScores_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://html_css_js_configuration/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/renderScores.js":
+/*!*************************************!*\
+  !*** ./src/modules/renderScores.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst createScore = () => {\r\n    const ul = document.querySelector('.information');\r\n    const li = document.createElement(li);\r\n    li.id = 'score1';\r\n    li.innerText = 'Ali-Jan:100';\r\n    ul.appendChild(li);\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createScore);\r\n\n\n//# sourceURL=webpack://html_css_js_configuration/./src/modules/renderScores.js?");
 
 /***/ })
 
