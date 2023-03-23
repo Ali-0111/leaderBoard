@@ -5,7 +5,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -20,12 +19,10 @@
 
 <!------------------------ PROJECT DESCRIPTION----------->
 
-# 📖 [To-Do-List] <a name="about-project"></a>
+# 📖 [LeaderBoard] <a name="about-project"></a>
 > Objectives of this project are to learn how to:
-
-- Create mobile and desktop version.
-- Deploy it.
-- Follow GitHub flow.
+-In this activity you will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. You should develop a first working version of the app following a wireframe, but without styling - just focus on functionality. In following activities, you will consume the Leaderboard API using JavaScript async and await and add some styling.
+- Follow Git flow.
 - Open pull requests in GitHub.
 - Write descriptive, easy to understand commit messages.
 - Write short, detailed, easy to understand descriptions of pull requests.
@@ -34,7 +31,7 @@
 - Using HTML,CSS,BOOTSTRAP and JAVASCRIPT.
 - Create a enviroment for testing, use `Webpack` with `Jest`
 
-**[To-Do-List]** is a project that has been built in this repo.
+**[LeaderBoard]** is a project that has been built in this repo.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,7 +49,6 @@
 
 > Webpack
 
-> Jest.
 
 <details>
   <summary>HTML</summary>
@@ -96,35 +92,17 @@
   </ul>
 </details>
 
-<details>
-<summary> Jest </summary>
-  <ul>
-    <li><a href="https://jestjs.io/"> Jest </a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 > We have made use of a couple of features mainly:
 
-- **[Linters]**
-- **[HTML5]**
-- **[CSS]**
-- **[GitHub Pages]**
-- **[Webpack]**
-- **[Jest]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-<!------------------------Pleas update the link -------------->
-
-- [Live Demo Link](https://ali-0111.github.io/To-Do-List/dist/)
-
+- **[Leaderboard API]**
+- **[JavaScript async ]**
+- **[JavaScript wait]**
+- **[ notably modules]**
+- **[ES6 features]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +130,7 @@ After Installing Google Chrome set it as default browser.
 
 ### Usage
 <!----------------Please add the new link ------------------->
-To run the project, click [TodoList](https://github.com/Ali-0111/To-Do-List)
+To run the project, click [LeaderBoard](https://github.com/Ali-0111/leaderBoard)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,19 +144,6 @@ To run the project, click [TodoList](https://github.com/Ali-0111/To-Do-List)
 - Twitter: [@safari](https://twitter.com/qurban_safari)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-safari-695214202/)
 
-👤 **ClintonYounge**
-
-- GitHub: [@ClintonYounge](https://github.com/ClintonYounge)
-- Twitter: [@ClintonYounge](https://twitter.com/YoungeCjay)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/clinton-younge-83386a25a/)
-
-👤 **mdg0410**
-
-- GitHub: [@mdg0410](https://github.com/mdg0410)
-- Twitter: [@mdg0410](https://twitter.com/steven_levoyer)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
-
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -186,6 +151,7 @@ To run the project, click [TodoList](https://github.com/Ali-0111/To-Do-List)
 > This are some of the features coming soon.
 
 - [ ] **[Mobile Version]**
+- [ ] **[Navigation bar with time]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,8 +177,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 -Thank you to Microverse Inc.
-<!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
-This work is licensed by <a rel="license" href="./LICENSE">MIT </a>.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- LICENSE -->
+## MIT License
+
+This project is [MIT](./License) licensed.

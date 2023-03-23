@@ -35,9 +35,8 @@ module.exports = {
   },
 };
 
-
 // src
-/* 
+/*
 
 https://github.com/microverseinc/curriculum-javascript/blob/main/todo-list/exercises/exercise_set_up_project_with_webpack.md
 
