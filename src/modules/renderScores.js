@@ -1,16 +1,12 @@
-import data from './db.js';
-
-const createScore = (element, i) => {
+const renderList = (data) => {
   const ul = document.querySelector('.information');
-  const li = document.createElement('li');
-  li.id = `score${i + 1}`;
-  li.innerText = `${element.name} : ${element.score}`;
-  ul.appendChild(li);
+  ul.innerHTML = '';
+  let newElements = '';
+  data.forEach((object, i) => {
+    newElements
+    += `<li id="score${i + 1}"> ${object.user} : ${object.score}</li>`;
+  });
+  ul.innerHTML = newElements;
 };
 
-const renderList = () => {
-  data.forEach((object, i) => {
-    createScore(object, i);
-  });
-};
 export default renderList;
