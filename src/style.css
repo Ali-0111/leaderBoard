@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Mina&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -8,25 +11,33 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background: #efebff;
+  font-family: 'Mina', sans-serif;
+}
+
 ul {
   list-style: none;
 }
 
 .main-head {
-  padding: 2rem 2rem;
-  letter-spacing: 0.52rem;
+  padding: 2rem 4rem;
+  letter-spacing: 1.5rem;
   border-bottom: 1px solid rgb(36, 35, 35);
   box-shadow: 0.5px 1px 10px;
+  background-color: #3aafa9;
 }
 
 .main-head h1 {
   font-size: 5rem;
+  font-family: 'Fasthand', sans-serif;
 }
 
 .main {
   padding: 2rem;
   min-height: 80vh;
   display: flex;
+  justify-content: space-between;
 }
 
 .w-50 {
@@ -44,35 +55,54 @@ ul {
   align-items: flex-start;
 }
 
+.scores {
+  padding-left: 5rem;
+  margin-left: 2rem;
+}
+
 .scores-head {
   justify-content: space-between;
   margin-bottom: 2.5rem;
   padding: 1rem;
 }
 
-.information li {
-  font-size: 2rem;
-  padding: 0.5rem 0.7rem;
-  margin: 0.4rem;
+.information {
+  box-shadow:
+    10px 10px 30px #f2f1f8,
+    -10px -10px 30px #fff;
+  border-radius: 10px;
 }
 
-.information li:nth-child(odd) {
-  background-color: rgb(197, 197, 197);
+.information li {
+  font-size: 2rem;
+  padding: 1.5rem 0.7rem;
+  margin: 0.4rem;
+  border-bottom: 1px solid white;
 }
+
+/* .information li:nth-child(odd) {
+  background-color: rgb(197, 197, 197);
+} */
 
 .inputs {
   flex-direction: column;
-  align-items: center;
-  gap: 2rem;
+  align-items: flex-start;
+  margin-left: 10rem;
 }
 
 .inputs h2 {
   margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .input-form {
+  box-shadow:
+    10px 10px 30px #f2f1f8,
+    -10px -10px 30px #fff;
   flex-direction: column;
   gap: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .input-form input {
@@ -80,14 +110,17 @@ ul {
   outline: none;
   padding: 0.6rem 0.3rem;
   font-size: 2rem;
+  background: #efebff;
+  border-bottom: 1px solid white;
 }
 
 .submit-btn,
 .refresh-btn {
   border: none;
+  outline: none;
   border-radius: 2px;
   box-shadow: 1px 4px 10px;
-  background-color: white;
+  background: linear-gradient(145deg, #fffbff, #d7d4e6);
   padding: 0.5rem 3rem;
   color: black;
   cursor: pointer;
